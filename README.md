@@ -7,19 +7,29 @@ The model is trained on the FER-2013 dataset which was published on Internationa
 This dataset consists of 35887 grayscale, 48x48 sized face images
 with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised.
 
-Link for the dataset
+# Link for the dataset
 https://www.kaggle.com/deadskull7/fer2013
 
-Algorithm
+# Algorithm
 
-First, the haar cascade method is used to detect faces in each frame of the webcam feed.
++ First, the haar cascade method is used to detect faces in each frame of the webcam feed.
 
-The region of image containing the face is resized to 48x48 and is passed as input to the CNN.
++ The region of image containing the face is resized to 48x48 and is passed as input to the CNN.
 
-The network outputs a list of softmax scores for the seven classes of emotions.
++ The network outputs a list of softmax scores for the seven classes of emotions.
 
-The emotion with maximum score is displayed on the screen.
++ The emotion with maximum score is displayed on the screen.
 
+
+# Prerequisite
+
++ numpy==1.17.4
++ opencv-python==4.1.2.30
++ tensorflow==2.1.0
+
+# Model Architecture
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 
 
