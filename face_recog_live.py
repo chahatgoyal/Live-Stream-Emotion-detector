@@ -1,3 +1,5 @@
+#live stream using open cv and train model using facialrec.ipynb file
+
 import logging
 import pickle
 import numpy as np
